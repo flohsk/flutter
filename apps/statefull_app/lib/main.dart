@@ -10,12 +10,12 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         appBar: AppBar(
           title: Text("Change Color"),
-          backgroundColor: Colors.purple,
+          backgroundColor: Colors.black,
         ),
         body: Column(
           children: <Widget>[Expanded(
             child: Container(
-              color: Colors.green,
+              color: Colors.yellow,
               child: Center(
                 child: new PlayerPoints(),
               )
